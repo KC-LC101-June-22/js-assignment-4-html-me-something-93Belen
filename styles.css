@@ -9,8 +9,10 @@ body {
     display: grid;
     grid-template-rows: 7% 20% 73%;
     background: #d6ecf8;
+    margin: 8px;
+    display: block;
 }
-header {
+#mainHeading {
     box-sizing: border-box;
     grid-row: 1;
     background: #ebddd1;
@@ -98,5 +100,8 @@ a {
     color: black;
 }
 a:hover {
+    color: #6099af;
+}
+.funParagraph:hover {
     color: #6099af;
 }
