@@ -21,6 +21,7 @@ body {
     margin-top: -10px;
     margin-left: -10px;
     border-bottom: solid black 1px;
+    color: red;
 }
 main {
     padding: 20px 50px 20px 35px;
@@ -88,6 +89,7 @@ h5 {
 p {
     font-weight: 500;
     font-size: 18px;
+
 }
 li {
     font-weight: 400;
@@ -102,6 +104,9 @@ a {
 a:hover {
     color: #6099af;
 }
+.funParagraph {
+    color: green;
+}
 .funParagraph:hover {
-    color: #6099af;
+    color: black;
 }
